@@ -3,8 +3,15 @@ using namespace std;
 
 int main() {
 
-int y;
-cin >> y;
+int x;
+cin >> x;
 
-cout << y << endl;
+vector<int> inp(x, 0);
+for(int i = 0; i < x; i++) {
+    cin >> inp[i];
+}
+
+for(auto val : inp) {
+    cout << val << endl;
+}
 }
