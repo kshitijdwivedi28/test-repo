@@ -14,6 +14,4 @@ for(int i = 0; i < x; i++) {
 for(auto val : inp) {
     cout << val << endl;
 }
-
-cout << x << endl;
 }
