@@ -14,4 +14,9 @@ for(int i = 0; i < x; i++) {
 for(auto val : inp) {
     cout << val << endl;
 }
+
+unordered_map<string, vector<string>> graph;
+for(int i = 0; i < x; i++) {
+graph[inp[i]].push_back(inp[i]);
+}
 }
